@@ -1,9 +1,11 @@
 ﻿using Contract_Monthly_Claim_System.Models.View;
 using Contract_Monthly_Claim_System.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Contract_Monthly_Claim_System.Controllers
 {
+    [AllowAnonymous]
     public class ProfileController : Controller
     {
         private readonly IUserService _userService;
@@ -38,7 +40,7 @@ namespace Contract_Monthly_Claim_System.Controllers
                 if (result.Success)
                 {
                     TempData["SuccessMessage"] = "Profile created successfully! You can now log in.";
-                    return RedirectToPage("/Account/Login", new { area = "Identity" });
+                    return RedirectToPage("/Account/Register", new { area = "Identity" });
                 }
 
                 ModelState.AddModelError(string.Empty, result.Message);

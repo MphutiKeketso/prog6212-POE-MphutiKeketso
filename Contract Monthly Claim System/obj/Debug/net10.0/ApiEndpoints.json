@@ -50,5 +50,47 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Contract_Monthly_Claim_System.Controllers.ModulesApiController",
+    "Method": "GetModule",
+    "RelativePath": "api/modules/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contract_Monthly_Claim_System.Controllers.ProgrammesApiController",
+    "Method": "GetAllProgrammes",
+    "RelativePath": "api/programmes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contract_Monthly_Claim_System.Controllers.ProgrammesApiController",
+    "Method": "GetModulesByProgramme",
+    "RelativePath": "api/programmes/{id}/modules",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

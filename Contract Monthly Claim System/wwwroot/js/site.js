@@ -133,4 +133,3 @@ function formatDate(date, format = 'short') {
     
     return new Date(date).toLocaleDateString('en-ZA', options);
 }
-*/

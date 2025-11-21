@@ -71,6 +71,11 @@ builder.Services.AddControllersWithViews(options =>
         .RequireAuthenticatedUser()
         .Build();
     options.Filters.Add(new AuthorizeFilter(policy));
+})
+.AddJsonOptions(options =>
+{
+    // This prevents the "Possible object cycle" error by ignoring loops in data
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
 });
 
 // ===============================================
@@ -277,13 +282,13 @@ app.MapRazorPages();
 
 // API routes
 app.MapControllerRoute(
-    name: "api",
-    pattern: "api/{controller=Home}/{action=Index}/{id?}");
+    name: "default",
+    pattern: "{controller=Profile}/{action=Create}/{id?}");
 
 // Default MVC route
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Profile}/{action=Create}/{id?}");
 
 // Razor Pages (for Identity)
 app.MapRazorPages();

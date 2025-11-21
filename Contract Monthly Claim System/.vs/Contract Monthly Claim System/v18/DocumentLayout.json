@@ -7,12 +7,40 @@
       "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\views\\hr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:views\\hr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\controllers\\programmesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:controllers\\programmesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\controllers\\modulesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:controllers\\modulesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60D437BF-6000-44F3-9F2B-73097A8B959E}|Contract Monthly Claim System.csproj|c:\\users\\lab_services_student\\documents\\prog6212-poe-mphutikeketso\\contract monthly claim system\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,37 +118,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\HR\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HR\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\HR\\Index.cshtml",
+              "RelativeToolTip": "Views\\HR\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowE4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-21T19:12:25.138Z",
+              "WhenOpened": "2025-11-21T20:19:03.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-21T18:54:26.999Z",
+              "DocumentIndex": 2,
+              "Title": "HRController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\HRController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HRController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\HRController.cs",
+              "RelativeToolTip": "Controllers\\HRController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:16:17.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "ProgrammesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProgrammesApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProgrammesApiController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProgrammesApiController.cs",
+              "RelativeToolTip": "Controllers\\ProgrammesApiController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:02:00.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModulesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ModulesApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ModulesApiController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ModulesApiController.cs",
+              "RelativeToolTip": "Controllers\\ModulesApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T20:01:31.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Contract Monthly Claim System.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Contract Monthly Claim System.csproj",
               "RelativeDocumentMoniker": "Contract Monthly Claim System.csproj",
@@ -146,14 +192,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAYwPQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAYwPkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T18:17:06.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "DeletePersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
@@ -161,12 +207,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAhwBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T19:21:10.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T19:21:10.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -179,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -187,25 +232,75 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-21T19:19:41.287Z",
+              "WhenOpened": "2025-11-21T19:19:41.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T18:55:59.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T18:54:26.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-21T19:41:36.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAEgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-21T17:56:12.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T19:12:25.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ChangePassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
@@ -213,12 +308,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T19:20:00.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T19:20:00.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Controllers.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\Controllers.cs",
               "RelativeDocumentMoniker": "Controllers\\Controllers.cs",
@@ -230,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -238,12 +332,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAmwGsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T19:12:31.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T19:12:31.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "DocumentService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Services\\Implementation\\DocumentService.cs",
               "RelativeDocumentMoniker": "Services\\Implementation\\DocumentService.cs",
@@ -255,20 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T18:55:59.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ClaimService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Services\\Implementation\\ClaimService.cs",
               "RelativeDocumentMoniker": "Services\\Implementation\\ClaimService.cs",
@@ -280,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -288,12 +368,11 @@
               "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-21T18:53:42.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T18:53:42.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ResetAuthenticator.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
@@ -305,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "LoginWithRecoveryCode.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
@@ -317,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -329,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "LoginWith2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
@@ -341,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -353,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -365,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
