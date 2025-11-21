@@ -4,6 +4,7 @@ using Contract_Monthly_Claim_System.Services.Implementation;
 using Contract_Monthly_Claim_System.Services.Interfaces;
 using Contract_Monthly_Claim_System.Data.CMCS.Data;
 using Contract_Monthly_Claim_System.Models;
+
 //using Contract_Monthly_Claim_System.Services.Implementation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -37,51 +38,28 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 // ===============================================
 // 2. IDENTITY CONFIGURATION
 // ===============================================
-// ... existing code ...
-
-// 2. IDENTITY CONFIGURATION
-// ===============================================
-// 2. IDENTITY CONFIGURATION
-// ===============================================
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
-    // Password settings
-    options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = true;
+    // Simple password settings for testing
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireUppercase = true;
-    options.Password.RequiredLength = 8;
-    options.Password.RequiredUniqueChars = 1;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 4;
 
-    // Lockout settings
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.MaxFailedAccessAttempts = 5;
-    options.Lockout.AllowedForNewUsers = true;
-
-    // User settings
-    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     options.User.RequireUniqueEmail = true;
-
-    // Sign-in settings
     options.SignIn.RequireConfirmedAccount = false;
 })
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders()
-.AddDefaultUI(); // <--- THIS IS CRITICAL
+.AddDefaultUI(); // REQUIRED: Registers services for Login/Register pages
 
+// REQUIRED: Registers the Razor Pages engine used by Identity UI
 builder.Services.AddRazorPages();
+
+
 // Configure cookie settings
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.Cookie.HttpOnly = true;
-    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-    options.LoginPath = "/Identity/Account/Login";
-    options.LogoutPath = "/Identity/Account/Logout";
-    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
-    options.SlidingExpiration = true;
-    options.Cookie.Name = "CMCS.Auth";
-    options.Cookie.SameSite = SameSiteMode.Strict;
-});
+
 
 // ===============================================
 // 3. MVC AND CONTROLLERS CONFIGURATION

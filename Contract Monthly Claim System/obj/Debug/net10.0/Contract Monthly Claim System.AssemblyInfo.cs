@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Contract Monthly Claim System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d77cb2e006bc761ada82abc682682304440d95e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7885438e2fe9a9b3526eaefbac764ca1d006932")]
 [assembly: System.Reflection.AssemblyProductAttribute("Contract Monthly Claim System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Contract Monthly Claim System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

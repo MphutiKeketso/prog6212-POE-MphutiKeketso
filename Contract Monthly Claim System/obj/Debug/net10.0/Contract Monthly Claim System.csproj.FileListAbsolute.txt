@@ -1,353 +1,3 @@
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.Build.Locator.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.IO.Redist.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Newtonsoft.Json.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Buffers.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Collections.Immutable.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.CommandLine.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Memory.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Numerics.Vectors.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\System.Threading.Tasks.Extensions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\cs\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\de\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\es\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\fr\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\it\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\ja\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\ko\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\pl\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\pt-BR\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\ru\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\tr\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\zh-Hans\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\zh-Hant\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Microsoft.Build.Locator.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll.config
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\Newtonsoft.Json.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\System.Collections.Immutable.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\System.CommandLine.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\cs\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\de\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\es\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\fr\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\it\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\ja\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\ko\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\pl\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\pt-BR\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\ru\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\tr\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\zh-Hans\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\appsettings.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.staticwebassets.runtime.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.staticwebassets.endpoints.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.exe
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.deps.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.runtimeconfig.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.pdb
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Azure.Core.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Azure.Identity.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Humanizer.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Framework.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Utilities.Core.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Identity.Client.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Mono.TextTemplating.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Newtonsoft.Json.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.ClientModel.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.CodeDom.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.AttributedModel.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.Convention.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.Hosting.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.Runtime.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.TypedParts.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Formats.Nrbf.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Memory.Data.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Resources.Extensions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Security.Permissions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Windows.Extensions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.csproj.AssemblyReference.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.AssemblyInfoInputs.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.AssemblyInfo.cs
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.csproj.CoreCompileInputs.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.RazorAssemblyInfo.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.RazorAssemblyInfo.cs
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.sourcelink.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\scopedcss\bundle\Contract Monthly Claim System.styles.css
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\scopedcss\projectbundle\Contract Monthly Claim System.bundle.scp.css
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\yqtqb3fis4-{0}-k7mbzthdf8-k7mbzthdf8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\cumgqi92da-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\d3fhymkre6-{0}-j1ox7409xb-j1ox7409xb.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ygeebaek0f-{0}-1zc2cerc49-1zc2cerc49.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\4c7ci7436v-{0}-evniwq4jlr-evniwq4jlr.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\0qp6az7zvj-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\q0v3y4hudy-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9yl5xot4vp-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\e811ka56vc-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\n708yo1vmz-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\h7neoutxed-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\mwv3i1svyv-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\n0qjxk1det-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\1gfzmvtdyq-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\mrr1o3xltz-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\8fusy1yiha-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\g36arbo67e-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\syc82equnt-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\h6dbxakj14-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\mlmu4dix13-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\yq06zlrbr6-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\w1gw34skvh-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\aqd8juibrp-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\htqc67j7jk-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9fqpyqx4qi-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\k0wilk25wu-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\imj7azqnul-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\lmgq1oe7oc-{0}-06098lyss8-06098lyss8.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\1jdo1k7l6s-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9wt0pwr84o-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\750rxfy5st-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\rlhx8creud-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\e3l4ilhnye-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\vx48nx9l1q-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\rhqlhhdt98-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\lmmuz9wxyc-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\zkb536ckw7-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\yq1ogtaivm-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\q01tmzyc7x-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\jiwztowvy5-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\e5rnvqey8u-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9k2ukuknp0-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\btn3vbonfo-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\t7dfnsyui5-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\2bvpghm1pe-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\glodfgn857-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\eb0hfw1z8s-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\6ykzep58pz-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\40lak5e9yq-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\lbgctldn9s-{0}-47otxtyo56-47otxtyo56.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\faw8d0jxz9-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ili32fbxxe-{0}-356vix0kms-356vix0kms.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\fg8bvlh8gb-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\8u7opfdeyp-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\9bv2yqgstk-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\mgwiqcme85-{0}-ag7o75518u-ag7o75518u.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\0zi5fawzu8-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\k4n8gkl9tp-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\14g4yf8nku-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\qbggks7gi3-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\7ubm4r70oh-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ckobz44sxl-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\6r2rsi9jqt-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\ps629scq0d-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\p410jhaa3n-{0}-x5gufq2n64-x5gufq2n64.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\compressed\yskppaisqq-{0}-x5gufq2n64-x5gufq2n64.gz
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract.4E5ED812.Up2Date
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\refint\Contract Monthly Claim System.dll
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.pdb
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.genruntimeconfig.cache
-C:\Users\USER-PC\Documents\School\PROG\PROG 2B\prog6212-part1-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\ref\Contract Monthly Claim System.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.Build.Locator.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-net472\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
@@ -396,8 +46,8 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\appsettings.json
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.staticwebassets.endpoints.json
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.staticwebassets.runtime.json
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.staticwebassets.endpoints.json
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.exe
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.deps.json
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Contract Monthly Claim System.runtimeconfig.json
@@ -409,23 +59,34 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Framework.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Tasks.Core.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Build.Utilities.Core.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Data.Sqlite.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.DiaSymReader.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
@@ -439,8 +100,27 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Common.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Configuration.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.DependencyResolver.Core.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Frameworks.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.LibraryModel.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Packaging.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.ProjectModel.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Protocol.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Versioning.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.core.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -457,6 +137,54 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Security.Permissions.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\System.Windows.Extensions.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\af\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ar\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\az\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\bg\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\bn-BD\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\da\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\el\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fa\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fi-FI\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr-BE\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\he\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hr\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hu\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hy\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\id\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\is\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko-KR\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ku\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\lv\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ms-MY\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\mt\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nb\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nb-NO\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nl\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ro\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sk\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sl\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sr\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sr-Latn\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sv\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\th-TH\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uk\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\vi\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-CN\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Humanizer.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Humanizer.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -483,6 +211,19 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
@@ -496,6 +237,32 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
@@ -540,6 +307,29 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.csproj.AssemblyReference.cache
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\rpswa.dswa.cache.json
@@ -698,143 +488,3 @@ C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Mont
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.pdb
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\Contract Monthly Claim System.genruntimeconfig.cache
 C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\obj\Debug\net10.0\ref\Contract Monthly Claim System.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.Data.Sqlite.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.core.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-riscv64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Elfie.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Features.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.DiaSymReader.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.DotNet.Scaffolding.Shared.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\dotnet-aspnet-codegenerator-design.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Common.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Configuration.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.DependencyResolver.Core.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Frameworks.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.LibraryModel.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Packaging.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.ProjectModel.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Protocol.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\NuGet.Versioning.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\af\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ar\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\az\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\bg\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\bn-BD\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\da\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\el\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fa\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fi-FI\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr-BE\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\he\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hr\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hu\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\hy\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\id\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\is\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko-KR\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ku\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\lv\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ms-MY\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\mt\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nb\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nb-NO\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\nl\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ro\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sk\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sl\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sr\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sr-Latn\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\sv\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\th-TH\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uk\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uz-Cyrl-UZ\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\uz-Latn-UZ\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\vi\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-CN\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Humanizer.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lab_services_student\Documents\prog6212-POE-MphutiKeketso\Contract Monthly Claim System\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll

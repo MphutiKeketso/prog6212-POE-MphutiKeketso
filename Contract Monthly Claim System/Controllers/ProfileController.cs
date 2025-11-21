@@ -38,7 +38,6 @@ namespace Contract_Monthly_Claim_System.Controllers
                 if (result.Success)
                 {
                     TempData["SuccessMessage"] = "Profile created successfully! You can now log in.";
-                    // Redirect to Login page (adjust area/controller if using default Identity)
                     return RedirectToPage("/Account/Login", new { area = "Identity" });
                 }
 

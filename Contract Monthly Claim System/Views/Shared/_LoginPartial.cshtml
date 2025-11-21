@@ -73,15 +73,11 @@
     else
     {
         <li class="nav-item">
-            <!-- UPDATED: Points to Profile/Create instead of Identity/Account/Register -->
-            <a class="nav-link text-white" asp-controller="Profile" asp-action="Create">
-                <i class="fas fa-user-plus me-1"></i> Register
-            </a>
+            <!-- Updated Link: Points to Profile Controller -> Create Action -->
+            <a class="nav-link text-white" asp-controller="Profile" asp-action="Create">Register</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">
-                <i class="fas fa-sign-in-alt me-1"></i> Login
-            </a>
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
         </li>
     }
 </ul>

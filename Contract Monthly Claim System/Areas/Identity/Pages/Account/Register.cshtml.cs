@@ -101,10 +101,10 @@ namespace Contract_Monthly_Claim_System.Areas.Identity.Pages.Account
         }
 
 
-        public async Task OnGetAsync(string returnUrl = null)
+        public IActionResult OnGet(string returnUrl = null)
         {
-            ReturnUrl = returnUrl;
-            ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+            // Redirects anyone accessing this page to your Custom Profile Controller
+            return RedirectToAction("Create", "Profile");
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
