@@ -1,0 +1,170 @@
+﻿@using Contract_Monthly_Claim_System.Models
+@model Contract_Monthly_Claim_System.Models.View.CreateUserViewModel
+@{
+    ViewData["Title"] = "Create Profile";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card card-custom mt-4">
+            <div class="card-header bg-transparent">
+                <h3 class="mb-0 text-primary"><i class="fas fa-user-plus me-2"></i>Create New Profile</h3>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <!-- Core User Information -->
+                    <h5 class="border-bottom pb-2 mb-3">Personal Information</h5>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="FirstName" class="form-label">First Name *</label>
+                            <input asp-for="FirstName" class="form-control" placeholder="e.g. John" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="LastName" class="form-label">Last Name *</label>
+                            <input asp-for="LastName" class="form-control" placeholder="e.g. Doe" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label">Email Address *</label>
+                        <input asp-for="Email" class="form-control" type="email" placeholder="name@university.edu" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PhoneNumber" class="form-label">Phone Number</label>
+                        <input asp-for="PhoneNumber" class="form-control" placeholder="012 345 6789" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label">Password *</label>
+                        <input asp-for="Password" class="form-control" type="password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <!-- Role Selection -->
+                    <div class="mb-4 p-3 bg-light rounded">
+                        <label asp-for="UserType" class="form-label fw-bold">Select Your Role *</label>
+                        <select asp-for="UserType" class="form-select" id="userTypeSelect"
+                                asp-items="Html.GetEnumSelectList<UserType>()">
+                            <option value="">-- Select Role --</option>
+                        </select>
+                        <span asp-validation-for="UserType" class="text-danger"></span>
+                    </div>
+
+                    <!-- DYNAMIC SECTIONS (Shown via JS) -->
+                    <!-- Lecturer Specifics -->
+                    <div id="lecturerFields" class="role-section d-none">
+                        <h5 class="border-bottom pb-2 mb-3 text-info">Lecturer Details</h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="EmployeeNumber" class="form-label">Employee Number *</label>
+                                <input asp-for="EmployeeNumber" class="form-control" />
+                                <span asp-validation-for="EmployeeNumber" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Specialization" class="form-label">Specialization</label>
+                                <input asp-for="Specialization" class="form-control" placeholder="e.g. Computer Science" />
+                                <span asp-validation-for="Specialization" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="DefaultHourlyRate" class="form-label">Hourly Rate (R)</label>
+                                <input asp-for="DefaultHourlyRate" class="form-control" type="number" step="0.01" />
+                                <span asp-validation-for="DefaultHourlyRate" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="BankAccountNumber" class="form-label">Bank Account</label>
+                                <input asp-for="BankAccountNumber" class="form-control" />
+                                <span asp-validation-for="BankAccountNumber" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label asp-for="TaxNumber" class="form-label">Tax Number</label>
+                                <input asp-for="TaxNumber" class="form-control" />
+                                <span asp-validation-for="TaxNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coordinator Specifics -->
+                    <div id="coordinatorFields" class="role-section d-none">
+                        <h5 class="border-bottom pb-2 mb-3 text-info">Coordinator Details</h5>
+                        <div class="mb-3">
+                            <label asp-for="Department" class="form-label">Department *</label>
+                            <input asp-for="Department" class="form-control" placeholder="e.g. Faculty of Science" />
+                            <span asp-validation-for="Department" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Manager Specifics -->
+                    <div id="managerFields" class="role-section d-none">
+                        <h5 class="border-bottom pb-2 mb-3 text-info">Manager Details</h5>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Division" class="form-label">Division *</label>
+                                <input asp-for="Division" class="form-control" />
+                                <span asp-validation-for="Division" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="ApprovalLimit" class="form-label">Approval Limit (R)</label>
+                                <input asp-for="ApprovalLimit" class="form-control" type="number" step="0.01" />
+                                <span asp-validation-for="ApprovalLimit" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2 mt-4">
+                        <button type="submit" class="btn btn-primary btn-lg shadow-sm">
+                            <i class="fas fa-check-circle me-2"></i>Create Profile
+                        </button>
+                        <a href="/" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            function toggleFields() {
+                // 1. Hide all sections AND disable their inputs
+                // Disabling inputs stops them from being sent to the server, fixing the validation error
+                $('.role-section').addClass('d-none');
+                $('.role-section input, .role-section select').prop('disabled', true);
+
+                // 2. Get selected value
+                var selectedRole = $('#userTypeSelect').val();
+                var activeSection = '';
+
+                if (selectedRole === '1') {
+                    activeSection = '#lecturerFields';
+                } else if (selectedRole === '2') {
+                    activeSection = '#coordinatorFields';
+                } else if (selectedRole === '3') {
+                    activeSection = '#managerFields';
+                }
+
+                // 3. Show active section and Re-enable its inputs
+                if (activeSection) {
+                    $(activeSection).removeClass('d-none');
+                    $(activeSection + ' input, ' + activeSection + ' select').prop('disabled', false);
+                }
+            }
+
+            // Bind change event
+            $('#userTypeSelect').change(toggleFields);
+
+            // Run on page load
+            toggleFields();
+        });
+    </script>
+}

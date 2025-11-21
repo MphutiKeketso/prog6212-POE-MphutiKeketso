@@ -33,6 +33,15 @@ namespace Contract_Monthly_Claim_System.Controllers
         public async Task<IActionResult> Index()
         {
             var currentUser = await _userService.GetCurrentUserAsync(User);
+
+            if (currentUser == null)
+            {
+                // Option A: Redirect to a profile setup page if they don't exist in your custom table
+                  return RedirectToAction("Create", "Profile"); 
+
+                
+            }
+
             var dashboardData = await BuildDashboardViewModel(currentUser);
 
             return View(dashboardData);

@@ -1,0 +1,82 @@
+﻿@using Contract_Monthly_Claim_System.Models.View
+@model List<PendingApprovalViewModel>
+@{
+    ViewData["Title"] = "Pending Approvals";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Pending Approvals</h2>
+            <p class="text-muted">Claims requiring your review and decision.</p>
+        </div>
+    </div>
+
+    <div class="card card-custom">
+        <div class="card-header bg-transparent">
+            <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Awaiting Action</h5>
+        </div>
+        <div class="card-body">
+            @if (Model.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Claim #</th>
+                                <th>Lecturer</th>
+                                <th>Submitted Date</th>
+                                <th>Amount</th>
+                                <th>Priority</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var claim in Model)
+                            {
+                                <tr>
+                                    <td><strong>@claim.ClaimNumber</strong></td>
+                                    <td>@claim.LecturerName</td>
+                                    <td>
+                                        @claim.SubmissionDate.ToString("yyyy-MM-dd")
+                                        @if (claim.DaysOverdue > 7)
+                                        {
+                                            <span class="badge bg-danger ms-1">Overdue</span>
+                                        }
+                                    </td>
+                                    <td>@claim.TotalAmount.ToString("C")</td>
+                                    <td>
+                                        <span class="badge bg-@(claim.Priority == "High" ? "danger" : claim.Priority == "Medium" ? "warning" : "info")">
+                                            @claim.Priority
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <small class="text-muted">@claim.DaysOverdue days pending</small>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Approval" asp-action="ReviewClaim" asp-route-id="@claim.ClaimId"
+                                           class="btn btn-sm btn-primary">
+                                            <i class="fas fa-eye me-1"></i>Review
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+                    <i class="fas fa-check-circle fa-4x text-success mb-3"></i>
+                    <h4>All Caught Up!</h4>
+                    <p class="text-muted">There are no pending claims requiring your approval at this time.</p>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary mt-2">
+                        Return to Dashboard
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

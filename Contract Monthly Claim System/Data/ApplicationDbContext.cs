@@ -322,7 +322,7 @@ namespace Contract_Monthly_Claim_System.Data
             var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
             // Ensure database is created
-            await context.Database.EnsureCreatedAsync();
+            await context.Database.MigrateAsync();
 
             // 1. Seed roles FIRST
             await SeedRolesAsync(roleManager);

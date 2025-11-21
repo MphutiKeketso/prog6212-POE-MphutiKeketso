@@ -62,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Claims/PendingApprovals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXFBlbmRpbmdBcHByb3ZhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Claims/Track.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXFRyYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/HR/PaymentReport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJcUGF5bWVudFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Profile/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Reports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Reports/Lecturer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xMZWN0dXJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Reports/Programme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xQcm9ncmFtbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lab_services_student/Documents/prog6212-POE-MphutiKeketso/Contract Monthly Claim System/Views/Shared/Error.cshtml]

@@ -1,0 +1,153 @@
+﻿@using Contract_Monthly_Claim_System.Services.Interfaces
+@using Contract_Monthly_Claim_System.Models.View
+@model ReportViewModel
+@inject IProgrammeService ProgrammeService
+
+@{
+    ViewData["Title"] = "Programme Report";
+
+    // Fetch programmes for the dropdown
+    var programmes = await ProgrammeService.GetAllProgrammesAsync();
+
+    // Retain filter values from query string
+    var currentProgrammeId = Context.Request.Query["programmeId"].ToString();
+    var fromDate = Context.Request.Query["fromDate"].ToString();
+    var toDate = Context.Request.Query["toDate"].ToString();
+
+    // Set defaults
+    if (string.IsNullOrEmpty(fromDate)) fromDate = DateTime.Today.AddMonths(-3).ToString("yyyy-MM-dd");
+    if (string.IsNullOrEmpty(toDate)) toDate = DateTime.Today.ToString("yyyy-MM-dd");
+
+    // Extract data from the dictionary if available
+    var totalAmount = Model.Parameters.ContainsKey("TotalAmount") ? (decimal)Model.Parameters["TotalAmount"] : 0;
+    var totalHours = Model.Parameters.ContainsKey("TotalHours") ? (decimal)Model.Parameters["TotalHours"] : 0;
+    var uniqueLecturers = Model.Parameters.ContainsKey("UniqueLecturers") ? (int)Model.Parameters["UniqueLecturers"] : 0;
+    var claimItems = Model.Parameters.ContainsKey("ClaimItems") ? (List<Contract_Monthly_Claim_System.Models.ClaimItem>)Model.Parameters["ClaimItems"] : new List<Contract_Monthly_Claim_System.Models.ClaimItem>();
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="page-title">Programme Claims Report</h2>
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-1"></i>Back to Reports
+        </a>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="card card-custom mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
+                <div class="col-md-4">
+                    <label class="form-label">Select Programme</label>
+                    <select name="programmeId" class="form-select">
+                        <option value="">-- All Programmes --</option>
+                        @foreach (var prog in programmes)
+                        {
+                            <!option value="@prog.ProgrammeId" @(currentProgrammeId == prog.ProgrammeId.ToString() ? "selected" : "")>
+                            @prog.ProgrammeName (@prog.ProgrammeCode)
+                            </!option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">From Date</label>
+                    <input type="date" name="fromDate" class="form-control" value="@fromDate">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">To Date</label>
+                    <input type="date" name="toDate" class="form-control" value="@toDate">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fas fa-filter me-1"></i>Generate
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Report Results -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Report Summary</h5>
+
+                    @if (claimItems.Any())
+                    {
+                        <form asp-action="Export" method="post" class="d-flex gap-2">
+                            <input type="hidden" name="reportType" value="Programme" />
+                            <input type="hidden" name="parameters[programmeId]" value="@currentProgrammeId" />
+                            <input type="hidden" name="parameters[fromDate]" value="@fromDate" />
+                            <input type="hidden" name="parameters[toDate]" value="@toDate" />
+
+                            <button type="submit" name="format" value="pdf" class="btn btn-sm btn-outline-danger">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </button>
+                            <button type="submit" name="format" value="excel" class="btn btn-sm btn-outline-success">
+                                <i class="fas fa-file-excel me-1"></i>Excel
+                            </button>
+                        </form>
+                    }
+                </div>
+                <div class="card-body">
+                    <div class="row text-center mb-4">
+                        <div class="col-md-4 border-end">
+                            <h6 class="text-muted">Total Payout</h6>
+                            <h3 class="text-success">@totalAmount.ToString("C")</h3>
+                        </div>
+                        <div class="col-md-4 border-end">
+                            <h6 class="text-muted">Total Hours</h6>
+                            <h3 class="text-info">@totalHours.ToString("0.0")</h3>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-muted">Active Lecturers</h6>
+                            <h3 class="text-primary">@uniqueLecturers</h3>
+                        </div>
+                    </div>
+
+                    @if (claimItems.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover table-sm">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Lecturer</th>
+                                        <th>Work Date</th>
+                                        <th>Hours</th>
+                                        <th>Rate</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in claimItems)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <strong>@item.Module.ModuleCode</strong><br />
+                                                <small class="text-muted">@item.Module.ModuleName</small>
+                                            </td>
+                                            <td>@item.Claim.Lecturer.FirstName @item.Claim.Lecturer.LastName</td>
+                                            <td>@item.WorkDate.ToString("yyyy-MM-dd")</td>
+                                            <td>@item.HoursWorked</td>
+                                            <td>@item.HourlyRate.ToString("C")</td>
+                                            <td>@item.TotalAmount.ToString("C")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5 text-muted">
+                            <i class="fas fa-search fa-3x mb-3"></i>
+                            <p>No claims found for the selected criteria.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,123 @@
+﻿@using Contract_Monthly_Claim_System.Services.Interfaces
+@using Contract_Monthly_Claim_System.Models.View
+@model LecturerSummaryViewModel
+@inject IUserService UserService
+
+@{
+    ViewData["Title"] = "Lecturer Report";
+
+    // Fetch lecturers for the dropdown
+    var lecturers = await UserService.GetAllLecturersAsync();
+
+    // Retain filter values from the query string
+    var currentLecturerId = Context.Request.Query["lecturerId"].ToString();
+    var fromDate = Context.Request.Query["fromDate"].ToString();
+    var toDate = Context.Request.Query["toDate"].ToString();
+
+    // Set defaults if empty
+    if (string.IsNullOrEmpty(fromDate)) fromDate = DateTime.Today.AddMonths(-3).ToString("yyyy-MM-dd");
+    if (string.IsNullOrEmpty(toDate)) toDate = DateTime.Today.ToString("yyyy-MM-dd");
+}
+
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="page-title">Lecturer Claims Report</h2>
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-1"></i>Back to Reports
+        </a>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="card card-custom mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
+                <div class="col-md-4">
+                    <label class="form-label">Select Lecturer</label>
+                    <select name="lecturerId" class="form-select">
+                        <option value="">-- All Lecturers --</option>
+                        @foreach (var lecturer in lecturers)
+                        {
+                            <!option value="@lecturer.UserId" @(currentLecturerId == lecturer.UserId.ToString() ? "selected" : "")>
+                            @lecturer.FirstName @lecturer.LastName (@lecturer.EmployeeNumber)
+                            </!option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">From Date</label>
+                    <input type="date" name="fromDate" class="form-control" value="@fromDate">
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">To Date</label>
+                    <input type="date" name="toDate" class="form-control" value="@toDate">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fas fa-filter me-1"></i>Generate
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Report Results -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Report Summary</h5>
+
+                    @if (Model.TotalClaims > 0)
+                    {
+                        <form asp-action="Export" method="post" class="d-flex gap-2">
+                            <input type="hidden" name="reportType" value="Lecturer" />
+                            <!-- Pass parameters for export -->
+                            <input type="hidden" name="parameters[lecturerId]" value="@currentLecturerId" />
+                            <input type="hidden" name="parameters[fromDate]" value="@fromDate" />
+                            <input type="hidden" name="parameters[toDate]" value="@toDate" />
+
+                            <button type="submit" name="format" value="pdf" class="btn btn-sm btn-outline-danger">
+                                <i class="fas fa-file-pdf me-1"></i>PDF
+                            </button>
+                            <button type="submit" name="format" value="excel" class="btn btn-sm btn-outline-success">
+                                <i class="fas fa-file-excel me-1"></i>Excel
+                            </button>
+                        </form>
+                    }
+                </div>
+                <div class="card-body">
+                    @if (Model.TotalClaims > 0 || !string.IsNullOrEmpty(Model.LecturerName))
+                    {
+                        <div class="row text-center">
+                            <div class="col-md-3 border-end">
+                                <h6 class="text-muted">Lecturer</h6>
+                                <h5>@(string.IsNullOrEmpty(Model.LecturerName) ? "All Lecturers" : Model.LecturerName)</h5>
+                                <small class="text-muted">@Model.EmployeeNumber</small>
+                            </div>
+                            <div class="col-md-3 border-end">
+                                <h6 class="text-muted">Claims Approved</h6>
+                                <h3 class="text-primary">@Model.TotalClaims</h3>
+                            </div>
+                            <div class="col-md-3 border-end">
+                                <h6 class="text-muted">Total Hours</h6>
+                                <h3 class="text-info">@Model.TotalHours.ToString("0.0")</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <h6 class="text-muted">Total Payout</h6>
+                                <h3 class="text-success">@Model.TotalAmount.ToString("C")</h3>
+                                <small class="text-muted">Avg Rate: @Model.AverageHourlyRate.ToString("C")/hr</small>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5 text-muted">
+                            <i class="fas fa-chart-bar fa-3x mb-3"></i>
+                            <p>No data found for the selected criteria.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

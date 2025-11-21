@@ -3,70 +3,129 @@
 @{
     ViewData["Title"] = "Dashboard";
 }
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark navbar-custom border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <i class="fas fa-file-invoice-dollar me-2"></i>CMCS
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
-                        </li>
-                        @if (User.IsInRole("Lecturer"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="Create">Submit Claim</a>
-                            </li>
-                        }
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="Index">My Claims</a>
-                        </li>
-                        @if (User.IsInRole("ProgrammeCoordinator") || User.IsInRole("AcademicManager"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="PendingApprovals">Pending Approvals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="Reports" asp-action="Index">Reports</a>
-                            </li>
-                        }
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Documents" asp-action="Index">Documents</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid">
-        <div class="row">
-            <nav id="sidebarMenu" class="col-md-2 d-md-block sidebar collapse">
-                <div class="position-sticky pt-3">
-                    <partial name="_Navigation" />
-                </div>
-            </nav>
-            <main class="col-md-10 ms-sm-auto px-md-4">
-                @RenderBody()
-            </main>
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Dashboard</h2>
+            <p class="text-muted">Welcome back, @Model.UserName</p>
         </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Contract Monthly Claim System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Dashboard Statistics -->
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card card-custom text-center p-4 bg-gradient-primary text-white">
+                <i class="fas fa-file-invoice fa-3x mb-3"></i>
+                <h3>@Model.Stats.TotalClaims</h3>
+                <p class="mb-0">Total Claims</p>
+            </div>
         </div>
-    </footer>
+        <div class="col-md-4">
+            <div class="card card-custom text-center p-4 bg-warning text-white">
+                <i class="fas fa-clock fa-3x mb-3"></i>
+                <h3>@Model.Stats.PendingClaims</h3>
+                <p class="mb-0">Pending Approval</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-custom text-center p-4 bg-success text-white">
+                <i class="fas fa-check-circle fa-3x mb-3"></i>
+                <h3>@Model.Stats.ApprovedClaims</h3>
+                <p class="mb-0">Approved Claims</p>
+            </div>
+        </div>
+    </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+    <!-- Recent Activity -->
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card card-custom mb-4">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Recent Claims</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.RecentClaims.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Claim #</th>
+                                        <th>Month</th>
+                                        <th>Amount</th>
+                                        <th>Status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var claim in Model.RecentClaims)
+                                    {
+                                        <tr>
+                                            <td>@claim.ClaimNumber</td>
+                                            <td>@claim.ClaimMonth.ToString("MMM yyyy")</td>
+                                            <td>@claim.TotalAmount.ToString("C")</td>
+                                            <td>
+                                                <span class="badge @claim.StatusClass">
+                                                    @claim.StatusDisplay
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <a asp-controller="Claims" asp-action="Details" asp-route-id="@claim.ClaimId" class="btn btn-sm btn-outline-primary">
+                                                    View
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-4 text-muted">
+                            <p>No recent claims found.</p>
+                            @if (User.IsInRole("Lecturer"))
+                            {
+                                <a asp-controller="Claims" asp-action="Create" class="btn btn-primary btn-sm">Create New Claim</a>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div class="col-lg-4">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-bell me-2"></i>Notifications</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Notifications.Any())
+                    {
+                        <ul class="list-group list-group-flush">
+                            @foreach (var notif in Model.Notifications)
+                            {
+                                <li class="list-group-item d-flex align-items-start">
+                                    <div class="me-3 mt-1">
+                                        <i class="@notif.Icon text-@notif.Type"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">@notif.Title</h6>
+                                        <p class="mb-1 small">@notif.Message</p>
+                                        <small class="text-muted">@notif.CreatedDate.ToString("MMM dd, HH:mm")</small>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p class="text-center text-muted my-3">No new notifications.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

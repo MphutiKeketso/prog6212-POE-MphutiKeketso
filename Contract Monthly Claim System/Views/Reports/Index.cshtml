@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Reports Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Reports & Analytics</h2>
+            <p class="text-muted">Generate and export claims reports.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Monthly Report Card -->
+        <div class="col-md-4">
+            <div class="card card-custom h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-calendar-alt fa-3x text-primary mb-3"></i>
+                    <h5 class="card-title">Monthly Report</h5>
+                    <p class="card-text">View aggregated claim data for a specific month.</p>
+                    <form asp-action="Monthly" method="get" class="mt-3">
+                        <div class="mb-3">
+                            <input type="month" name="month" class="form-control" required value="@DateTime.Now.ToString("yyyy-MM")" />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Generate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lecturer Report Card -->
+        <div class="col-md-4">
+            <div class="card card-custom h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-tie fa-3x text-success mb-3"></i>
+                    <h5 class="card-title">Lecturer Report</h5>
+                    <p class="card-text">Detailed claims history for a specific lecturer.</p>
+                    <a asp-action="Lecturer" class="btn btn-outline-success mt-3 w-100">View Options</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Programme Report Card -->
+        <div class="col-md-4">
+            <div class="card card-custom h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-graduation-cap fa-3x text-info mb-3"></i>
+                    <h5 class="card-title">Programme Report</h5>
+                    <p class="card-text">Claims analysis by academic programme.</p>
+                    <a asp-action="Programme" class="btn btn-outline-info mt-3 w-100">View Options</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
