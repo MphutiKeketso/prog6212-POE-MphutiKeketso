@@ -37,7 +37,13 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 // ===============================================
 // 2. IDENTITY CONFIGURATION
 // ===============================================
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+// ... existing code ...
+
+// 2. IDENTITY CONFIGURATION
+// ===============================================
+// 2. IDENTITY CONFIGURATION
+// ===============================================
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     // Password settings
     options.Password.RequireDigit = true;
@@ -57,13 +63,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     options.User.RequireUniqueEmail = true;
 
     // Sign-in settings
-    options.SignIn.RequireConfirmedEmail = false;
-    options.SignIn.RequireConfirmedPhoneNumber = false;
     options.SignIn.RequireConfirmedAccount = false;
 })
-    .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders()
+.AddDefaultUI(); // <--- THIS IS CRITICAL
 
+builder.Services.AddRazorPages();
 // Configure cookie settings
 builder.Services.ConfigureApplicationCookie(options =>
 {

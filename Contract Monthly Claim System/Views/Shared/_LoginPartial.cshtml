@@ -1,21 +1,70 @@
 @using Microsoft.AspNetCore.Identity
+@using Contract_Monthly_Claim_System.Models
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
-<ul class="navbar-nav">
+<ul class="navbar-nav ms-auto">
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-user-circle me-2"></i>@User.Identity?.Name
             </a>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index"><i class="fas fa-user me-2"></i>Profile</a></li>
-                <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Settings</a></li>
-                <li><hr class="dropdown-divider"></li>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                 <li>
-                    <form class="px-3" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home")">
-                        <button type="submit" class="dropdown-item"><i class="fas fa-sign-out-alt me-2"></i>Logout</button>
+                    <span class="dropdown-item-text text-muted small">Signed in as</span>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+
+                @* Dashboard Switching Logic *@
+                @if (User.IsInRole("Lecturer"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-chalkboard-teacher me-2"></i>Lecturer Dashboard
+                        </a>
+                    </li>
+                }
+                @if (User.IsInRole("ProgrammeCoordinator"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-controller="Approval" asp-action="CoordinatorDashboard">
+                            <i class="fas fa-user-tie me-2"></i>Coordinator Dashboard
+                        </a>
+                    </li>
+                }
+                @if (User.IsInRole("AcademicManager"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-controller="Approval" asp-action="ManagerDashboard">
+                            <i class="fas fa-user-graduate me-2"></i>Manager Dashboard
+                        </a>
+                    </li>
+                }
+                @if (User.IsInRole("SystemAdministrator") || User.IsInRole("AcademicManager"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-controller="HR" asp-action="Index">
+                            <i class="fas fa-users-cog me-2"></i>HR / Admin Dashboard
+                        </a>
+                    </li>
+                }
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li>
+                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">
+                        <i class="fas fa-user-cog me-2"></i>My Profile
+                    </a>
+                </li>
+
+                <li><hr class="dropdown-divider"></li>
+
+                <li>
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="dropdown-item text-danger">
+                            <i class="fas fa-sign-out-alt me-2"></i>Logout
+                        </button>
                     </form>
                 </li>
             </ul>
@@ -24,10 +73,15 @@
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            <!-- UPDATED: Points to Profile/Create instead of Identity/Account/Register -->
+            <a class="nav-link text-white" asp-controller="Profile" asp-action="Create">
+                <i class="fas fa-user-plus me-1"></i> Register
+            </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">
+                <i class="fas fa-sign-in-alt me-1"></i> Login
+            </a>
         </li>
     }
 </ul>

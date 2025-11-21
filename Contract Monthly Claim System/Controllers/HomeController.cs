@@ -30,22 +30,42 @@ namespace Contract_Monthly_Claim_System.Controllers
             _logger = logger;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult>
+    Index()
         {
-            var currentUser = await _userService.GetCurrentUserAsync(User);
-
-            if (currentUser == null)
+            // 1. Check if user is logged in
+            if (!User.Identity.IsAuthenticated)
             {
-                // Option A: Redirect to a profile setup page if they don't exist in your custom table
-                  return RedirectToAction("Create", "Profile"); 
-
-                
+                return View("Index_Guest"); // You'll need to create this simple landing page View or just return View() if your Index is safe for guests.
+                                            // OR: return RedirectToPage("/Account/Login", new { area = "Identity" });
             }
 
-            var dashboardData = await BuildDashboardViewModel(currentUser);
+            var currentUser = await _userService.GetCurrentUserAsync(User);
+            if (currentUser == null)
+            {
+                // Handle edge case: Identity exists but DB record is missing
+                return View("Error", new ErrorViewModel { RequestId = "User record missing" });
+            }
 
+            // 2. Role-based Redirect
+            if (User.IsInRole("ProgrammeCoordinator"))
+            {
+                return RedirectToAction("CoordinatorDashboard", "Approval");
+            }
+            if (User.IsInRole("AcademicManager"))
+            {
+                return RedirectToAction("ManagerDashboard", "Approval");
+            }
+            if (User.IsInRole("SystemAdministrator"))
+            {
+                return RedirectToAction("Index", "HR");
+            }
+
+            // 3. Default for Lecturers (The Standard Dashboard)
+            var dashboardData = await BuildDashboardViewModel(currentUser);
             return View(dashboardData);
         }
+
 
         [HttpGet]
         public IActionResult Privacy()

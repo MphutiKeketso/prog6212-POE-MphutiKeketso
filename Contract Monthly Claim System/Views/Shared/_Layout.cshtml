@@ -13,51 +13,21 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark navbar-custom border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <div class="row">
-                    <nav id="sidebarMenu" class="col-md-2 d-md-block sidebar collapse">
-                        <div class="position-sticky pt-3">
-                            <ul class="nav flex-column">
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Home" asp-action="Index">
-                                        <i class="fas fa-home me-2"></i> Dashboard
-                                    </a>
-                                </li>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-file-invoice-dollar me-2"></i>CMCS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                                @if (User.IsInRole("Lecturer"))
-                                {
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Claims" asp-action="Create">
-                                            <i class="fas fa-plus-circle me-2"></i> Submit Claim
-                                        </a>
-                                    </li>
-                                }
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <!-- Main Top Links (Empty if relying on sidebar, or add common links here) -->
+                    <ul class="navbar-nav flex-grow-1">
+                    </ul>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Claims" asp-action="Index">
-                                        <i class="fas fa-file-invoice me-2"></i> My Claims
-                                    </a>
-                                </li>
-
-                                @if (User.IsInRole("ProgrammeCoordinator") || User.IsInRole("AcademicManager"))
-                                {
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Claims" asp-action="PendingApprovals">
-                                            <i class="fas fa-tasks me-2"></i> Pending Approvals
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Reports" asp-action="Index">
-                                            <i class="fas fa-chart-bar me-2"></i> Reports
-                                        </a>
-                                    </li>
-                                }
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <main class="col-md-10 ms-sm-auto px-md-4">
-                        @RenderBody()
-                    </main>
+                    <!-- MOVED HERE: Login Partial is now in the top right -->
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
@@ -66,9 +36,53 @@
         <div class="row">
             <nav id="sidebarMenu" class="col-md-2 d-md-block sidebar collapse">
                 <div class="position-sticky pt-3">
-                    <partial name="_LoginPartial" />
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home me-2"></i> Dashboard
+                            </a>
+                        </li>
+
+                        @if (User.IsInRole("Lecturer"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Claims" asp-action="Create">
+                                    <i class="fas fa-plus-circle me-2"></i> Submit Claim
+                                </a>
+                            </li>
+                        }
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Claims" asp-action="Index">
+                                <i class="fas fa-file-invoice me-2"></i> My Claims
+                            </a>
+                        </li>
+
+                        @if (User.IsInRole("ProgrammeCoordinator") || User.IsInRole("AcademicManager"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Claims" asp-action="PendingApprovals">
+                                    <i class="fas fa-tasks me-2"></i> Pending Approvals
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Reports" asp-action="Index">
+                                    <i class="fas fa-chart-bar me-2"></i> Reports
+                                </a>
+                            </li>
+                        }
+                        @if (User.IsInRole("SystemAdministrator") || User.IsInRole("AcademicManager"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="HR" asp-action="Index">
+                                    <i class="fas fa-users-cog me-2"></i> HR Admin
+                                </a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </nav>
+
             <main class="col-md-10 ms-sm-auto px-md-4">
                 @RenderBody()
             </main>
