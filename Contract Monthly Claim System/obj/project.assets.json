@@ -4038,23 +4038,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER-PC\\Documents\\School\\PROG\\PROG 2B\\prog6212-part1-MphutiKeketso\\Contract Monthly Claim System\\Contract Monthly Claim System.csproj",
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Contract Monthly Claim System.csproj",
       "projectName": "Contract Monthly Claim System",
-      "projectPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG\\PROG 2B\\prog6212-part1-MphutiKeketso\\Contract Monthly Claim System\\Contract Monthly Claim System.csproj",
-      "packagesPath": "C:\\Users\\USER-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER-PC\\Documents\\School\\PROG\\PROG 2B\\prog6212-part1-MphutiKeketso\\Contract Monthly Claim System\\obj\\",
+      "projectPath": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\Contract Monthly Claim System.csproj",
+      "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Documents\\prog6212-POE-MphutiKeketso\\Contract Monthly Claim System\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4063,7 +4063,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
