@@ -1,0 +1,60 @@
+﻿@model List<Contract_Monthly_Claim_System.Controllers.PaymentReportItem>
+@{
+    ViewData["Title"] = "HR Payment Processing";
+}
+
+<h2>Approved Claims - Payment Generation</h2>
+<p class="text-muted">Claims approved by Academic Managers awaiting final payment processing.</p>
+
+<form asp-action="ProcessPayments" method="post">
+    <table class="table table-striped table-bordered" id="invoiceTable">
+        <thead class="table-dark">
+            <tr>
+                <th>Select</th>
+                <th>Employee</th>
+                <th>Month</th>
+                <th>Bank Details</th>
+                <th>Hours</th>
+                <th>Payable</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <input type="checkbox" name="claimIds" value="@item.ClaimId" checked />
+                    </td>
+                    <td>
+                        <strong>@item.LecturerName</strong><br />
+                        <small>@item.EmployeeNo</small>
+                    </td>
+                    <td>@item.Month</td>
+                    <td>@item.BankDetails</td>
+                    <td>@item.TotalHours</td>
+                    <td class="text-success fw-bold">@item.TotalPayable.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" class="text-end"><strong>Total Payout:</strong></td>
+                <td><strong>@Model.Sum(x => x.TotalPayable).ToString("C")</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="d-flex justify-content-end gap-2">
+        <button type="button" class="btn btn-outline-secondary" onclick="window.print()">
+            <i class="fas fa-print"></i> Print Invoice
+        </button>
+        <button type="submit" class="btn btn-success" onclick="return confirm('Are you sure you want to process these payments?')">
+            <i class="fas fa-money-bill-wave"></i> Process Payments
+        </button>
+    </div>
+</form>
+
+<script>
+    // Simple Invoice Generation Logic
+    // In a real app, this would call a library like iTextSharp
+</script>

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Contract Monthly Claim System</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CMCS.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark navbar-custom border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <nav id="sidebarMenu" class="col-md-2 d-md-block sidebar collapse">
+                        <div class="position-sticky pt-3">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index">
+                                        <i class="fas fa-home me-2"></i> Dashboard
+                                    </a>
+                                </li>
+
+                                @if (User.IsInRole("Lecturer"))
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Claims" asp-action="Create">
+                                            <i class="fas fa-plus-circle me-2"></i> Submit Claim
+                                        </a>
+                                    </li>
+                                }
+
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Claims" asp-action="Index">
+                                        <i class="fas fa-file-invoice me-2"></i> My Claims
+                                    </a>
+                                </li>
+
+                                @if (User.IsInRole("ProgrammeCoordinator") || User.IsInRole("AcademicManager"))
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Claims" asp-action="PendingApprovals">
+                                            <i class="fas fa-tasks me-2"></i> Pending Approvals
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-controller="Reports" asp-action="Index">
+                                            <i class="fas fa-chart-bar me-2"></i> Reports
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <main class="col-md-10 ms-sm-auto px-md-4">
+                        @RenderBody()
+                    </main>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-2 d-md-block sidebar collapse">
+                <div class="position-sticky pt-3">
+                    <partial name="_LoginPartial" />
+                </div>
+            </nav>
+            <main class="col-md-10 ms-sm-auto px-md-4">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Contract Monthly Claim System - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

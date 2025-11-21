@@ -1,0 +1,356 @@
+﻿@using Contract_Monthly_Claim_System.Models.View
+@model EnhancedClaimDetailsViewModel
+@{
+    ViewData["Title"] = $"Track Claim - {Model.ClaimNumber}";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Track Claim: @Model.ClaimNumber</h2>
+            <p class="text-muted">Submitted on @Model.SubmissionDate.ToString("MMMM dd, yyyy")</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        <i class="fas fa-tasks me-2"></i>Claim Progress
+                    </h5>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                             role="progressbar"
+                             style="width: @Model.ProgressPercentage%"
+                             aria-valuenow="@Model.ProgressPercentage"
+                             aria-valuemin="0"
+                             aria-valuemax="100">
+                            @Model.ProgressPercentage%
+                        </div>
+                    </div>
+                    <p class="text-center mt-3 mb-0">
+                        <strong>Current Stage:</strong> @Model.CurrentStage
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">
+                        <i class="fas fa-route me-2"></i>Progress Steps
+                    </h5>
+                    <div class="progress-steps">
+                        @foreach (var step in Model.ProgressSteps)
+                        {
+                            <div class="progress-step @(step.IsCompleted ? "completed" : "") @(step.IsCurrent ? "current" : "")">
+                                <div class="step-icon">
+                                    <i class="@step.Icon fa-2x"></i>
+                                </div>
+                                <div class="step-content">
+                                    <h6>@step.StepName</h6>
+                                    @if (step.CompletedDate.HasValue)
+                                    {
+                                        <small class="text-muted">@step.CompletedDate.Value.ToString("MMM dd, yyyy")</small>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        @if (Model.CoordinatorApprovalInfo != null)
+        {
+            <div class="col-md-6">
+                <div class="card card-custom">
+                    <div class="card-header bg-transparent">
+                        <h5 class="mb-0"><i class="fas fa-user-tie me-2"></i>Programme Coordinator</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <strong>Name:</strong> @Model.CoordinatorApprovalInfo.ApproverName
+                        </div>
+                        <div class="mb-3">
+                            <strong>Email:</strong> @Model.CoordinatorApprovalInfo.ApproverEmail
+                        </div>
+                        <div class="mb-3">
+                            <strong>Decision:</strong>
+                            <span class="badge bg-@(Model.CoordinatorApprovalInfo.Decision == "Approved" ? "success" : Model.CoordinatorApprovalInfo.Decision == "Rejected" ? "danger" : "warning")">
+                                @Model.CoordinatorApprovalInfo.Decision
+                            </span>
+                        </div>
+                        @if (Model.CoordinatorApprovalInfo.ApprovalDate.HasValue)
+                        {
+                            <div class="mb-3">
+                                <strong>Date:</strong> @Model.CoordinatorApprovalInfo.ApprovalDate.Value.ToString("MMMM dd, yyyy HH:mm")
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.CoordinatorApprovalInfo.Comments))
+                        {
+                            <div class="alert alert-info">
+                                <strong>Comments:</strong><br />
+                                @Model.CoordinatorApprovalInfo.Comments
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+
+        @if (Model.ManagerApprovalInfo != null)
+        {
+            <div class="col-md-6">
+                <div class="card card-custom">
+                    <div class="card-header bg-transparent">
+                        <h5 class="mb-0"><i class="fas fa-user-graduate me-2"></i>Academic Manager</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <strong>Name:</strong> @Model.ManagerApprovalInfo.ApproverName
+                        </div>
+                        <div class="mb-3">
+                            <strong>Email:</strong> @Model.ManagerApprovalInfo.ApproverEmail
+                        </div>
+                        <div class="mb-3">
+                            <strong>Decision:</strong>
+                            <span class="badge bg-@(Model.ManagerApprovalInfo.Decision == "Approved" ? "success" : Model.ManagerApprovalInfo.Decision == "Rejected" ? "danger" : "warning")">
+                                @Model.ManagerApprovalInfo.Decision
+                            </span>
+                        </div>
+                        @if (Model.ManagerApprovalInfo.ApprovalDate.HasValue)
+                        {
+                            <div class="mb-3">
+                                <strong>Date:</strong> @Model.ManagerApprovalInfo.ApprovalDate.Value.ToString("MMMM dd, yyyy HH:mm")
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.ManagerApprovalInfo.Comments))
+                        {
+                            <div class="alert alert-info">
+                                <strong>Comments:</strong><br />
+                                @Model.ManagerApprovalInfo.Comments
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-history me-2"></i>Status Timeline</h5>
+                </div>
+                <div class="card-body">
+                    <div class="timeline">
+                        @foreach (var item in Model.Timeline)
+                        {
+                            <div class="timeline-item">
+                                <div class="timeline-icon bg-@item.ColorClass">
+                                    <i class="@item.Icon"></i>
+                                </div>
+                                <div class="timeline-content">
+                                    <h6 class="mb-1">@item.Status</h6>
+                                    <p class="mb-1">@item.Description</p>
+                                    <small class="text-muted">
+                                        @item.PerformedBy • @item.Date.ToString("MMM dd, yyyy HH:mm")
+                                    </small>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-list me-2"></i>Claim Items</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Hours</th>
+                                <th>Rate</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.ClaimItems)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@item.ModuleCode</strong><br />
+                                        <small>@item.ModuleName</small>
+                                    </td>
+                                    <td>@item.HoursWorked.ToString("0.0")</td>
+                                    <td>@item.HourlyRate.ToString("C")</td>
+                                    <td>@item.TotalAmount.ToString("C")</td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr class="table-active">
+                                <th colspan="3">Total</th>
+                                <th>@Model.TotalAmount.ToString("C")</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-file-alt me-2"></i>Documents</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Documents.Any())
+                    {
+                        @foreach (var doc in Model.Documents)
+                        {
+                            <div class="d-flex align-items-center mb-3 p-2 border rounded">
+                                <i class="@doc.FileIcon fa-2x me-3"></i>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-0">@doc.FileName</h6>
+                                    <small class="text-muted">@doc.FileSizeDisplay</small>
+                                </div>
+                                <a href="@Url.Action("Download", "Documents", new { id = doc.DocumentId })"
+                                   class="btn btn-sm btn-outline-primary">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-muted">No documents uploaded</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Back to My Claims
+        </a>
+    </div>
+</div>
+
+<style>
+    .progress-steps {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .progress-step {
+        flex: 1;
+        text-align: center;
+        position: relative;
+        padding: 20px;
+    }
+
+    .progress-step::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        right: -50%;
+        height: 2px;
+        background: #dee2e6;
+        z-index: -1;
+    }
+
+    .progress-step:last-child::before {
+        display: none;
+    }
+
+    .progress-step.completed::before {
+        background: #28a745;
+    }
+
+    .step-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #f8f9fa;
+        border: 3px solid #dee2e6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+        color: #6c757d;
+    }
+
+    .progress-step.completed .step-icon {
+        background: #28a745;
+        border-color: #28a745;
+        color: white;
+    }
+
+    .progress-step.current .step-icon {
+        background: #007bff;
+        border-color: #007bff;
+        color: white;
+        animation: pulse 2s infinite;
+    }
+
+    keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+    }
+
+    .timeline {
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .timeline::before {
+        content: '';
+        position: absolute;
+        left: 10px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #dee2e6;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .timeline-icon {
+        position: absolute;
+        left: -30px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .timeline-content {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+    }
+</style>

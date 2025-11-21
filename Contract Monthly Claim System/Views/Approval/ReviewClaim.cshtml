@@ -1,0 +1,199 @@
+﻿@using Contract_Monthly_Claim_System.Models.View
+@model EnhancedClaimDetailsViewModel
+@{
+    ViewData["Title"] = $"Review Claim - {Model.ClaimNumber}";
+    var userRole = ViewBag.UserRole as string;
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Review Claim: @Model.ClaimNumber</h2>
+            <p class="text-muted">Submitted by @Model.LecturerName on @Model.SubmissionDate.ToString("MMMM dd, yyyy")</p>
+        </div>
+    </div>
+
+    <!-- Summary Card -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="claim-summary">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6 class="text-light">Claim Period</h6>
+                        <h4>@Model.ClaimMonth.ToString("MMMM yyyy")</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-light">Total Hours</h6>
+                        <h4>@Model.TotalHours.ToString("0.0")</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-light">Total Amount</h6>
+                        <h4>@Model.TotalAmount.ToString("C")</h4>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-light">Status</h6>
+                        <h4>@Model.StatusDisplay</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Claim Details -->
+        <div class="col-md-8">
+            <!-- Items -->
+            <div class="card card-custom mb-4">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-list me-2"></i>Claim Items</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Work Date</th>
+                                <th>Hours</th>
+                                <th>Rate</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.ClaimItems)
+                            {
+                                <tr>
+                                    <td>
+                                        <strong>@item.ModuleCode</strong><br />
+                                        <small>@item.ModuleName</small>
+                                    </td>
+                                    <td>@item.WorkDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@item.HoursWorked.ToString("0.0")</td>
+                                    <td>@item.HourlyRate.ToString("C")</td>
+                                    <td><strong>@item.TotalAmount.ToString("C")</strong></td>
+                                </tr>
+                            }
+                        </tbody>
+                        <tfoot>
+                            <tr class="table-active">
+                                <th colspan="4">Total</th>
+                                <th>@Model.TotalAmount.ToString("C")</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Documents -->
+            <div class="card card-custom mb-4">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-file-alt me-2"></i>Supporting Documents</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.Documents.Any())
+                    {
+                        @foreach (var doc in Model.Documents)
+                        {
+                            <div class="border rounded p-3 mb-2 d-flex justify-content-between align-items-center">
+                                <div>
+                                    <i class="@doc.FileIcon fa-2x me-3"></i>
+                                    <strong>@doc.FileName</strong>
+                                    <small class="text-muted ms-2">(@doc.FileSizeDisplay)</small>
+                                </div>
+                                <div>
+                                    <a href="@Url.Action("Download", "Documents", new { id = doc.DocumentId })"
+                                       class="btn btn-sm btn-outline-primary me-2" target="_blank">
+                                        <i class="fas fa-download"></i> Download
+                                    </a>
+                                    <a href="@Url.Action("Download", "Documents", new { id = doc.DocumentId })"
+                                       class="btn btn-sm btn-outline-secondary" target="_blank">
+                                        <i class="fas fa-eye"></i> View
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-muted">No documents uploaded</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Approval Form -->
+        <div class="col-md-4">
+            <div class="card card-custom mb-4">
+                <div class="card-header bg-transparent">
+                    <h5 class="mb-0"><i class="fas fa-gavel me-2"></i>Approval Decision</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="ProcessApproval" method="post">
+                        <input type="hidden" name="claimId" value="@Model.ClaimId" />
+
+                        <div class="mb-3">
+                            <label class="form-label">Decision *</label>
+                            <div class="btn-group w-100" role="group">
+                                <input type="radio" class="btn-check" name="action" id="approve" value="approve" required>
+                                <label class="btn btn-outline-success" for="approve">
+                                    <i class="fas fa-check me-1"></i>Approve
+                                </label>
+
+                                <input type="radio" class="btn-check" name="action" id="reject" value="reject" required>
+                                <label class="btn btn-outline-danger" for="reject">
+                                    <i class="fas fa-times me-1"></i>Reject
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="comments" class="form-label">Comments *</label>
+                            <textarea class="form-control" id="comments" name="comments" rows="5"
+                                      placeholder="Please provide detailed comments for your decision..." required></textarea>
+                            <small class="text-muted">These comments will be visible to the lecturer.</small>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Submit Decision
+                            </button>
+                            <a href="@(userRole == "ProgrammeCoordinator" ? Url.Action("CoordinatorDashboard") : Url.Action("ManagerDashboard"))"
+                               class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-2"></i>Back to Dashboard
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- History -->
+            @if (Model.Timeline.Any())
+            {
+                <div class="card card-custom">
+                    <div class="card-header bg-transparent">
+                        <h5 class="mb-0"><i class="fas fa-history me-2"></i>Review History</h5>
+                    </div>
+                    <div class="card-body">
+                        @foreach (var item in Model.Timeline.Take(5))
+                        {
+                            <div class="mb-3">
+                                <div class="d-flex align-items-start">
+                                    <div class="bg-@item.ColorClass text-white rounded-circle p-2 me-3">
+                                        <i class="@item.Icon"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1">@item.Status</h6>
+                                        <p class="small mb-1">@item.Description</p>
+                                        <small class="text-muted">
+                                            @item.PerformedBy<br />
+                                            @item.Date.ToString("MMM dd, yyyy HH:mm")
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

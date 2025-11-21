@@ -1,0 +1,148 @@
+﻿@using Contract_Monthly_Claim_System.Models.View
+@model CoordinatorDashboardViewModel
+@{
+    ViewData["Title"] = "Programme Coordinator Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="page-title">Programme Coordinator Dashboard</h2>
+            <p class="text-muted">Welcome, @Model.CoordinatorName</p>
+        </div>
+    </div>
+
+    <!-- Statistics -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card card-custom text-center p-4" style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white;">
+                <i class="fas fa-clock fa-3x mb-3"></i>
+                <h3>@Model.Statistics.PendingReviewCount</h3>
+                <p class="mb-0">Pending Review</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom text-center p-4" style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white;">
+                <i class="fas fa-check-circle fa-3x mb-3"></i>
+                <h3>@Model.Statistics.ApprovedThisMonth</h3>
+                <p class="mb-0">Approved This Month</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom text-center p-4" style="background: linear-gradient(135deg, #fa709a, #fee140); color: white;">
+                <i class="fas fa-times-circle fa-3x mb-3"></i>
+                <h3>@Model.Statistics.RejectedThisMonth</h3>
+                <p class="mb-0">Rejected This Month</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom text-center p-4" style="background: linear-gradient(135deg, #43e97b, #38f9d7); color: white;">
+                <i class="fas fa-dollar-sign fa-3x mb-3"></i>
+                <h3>@Model.Statistics.TotalAmountPending.ToString("C0")</h3>
+                <p class="mb-0">Total Pending</p>
+            </div>
+        </div>
+    </div>
+
+    @if (Model.Statistics.OverdueClaims > 0)
+    {
+        <div class="alert alert-warning">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            <strong>Attention:</strong> You have @Model.Statistics.OverdueClaims overdue claim(s) requiring review (over 7 days old).
+        </div>
+    }
+
+    <!-- Managed Programmes -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h5 class="mb-3"><i class="fas fa-graduation-cap me-2"></i>Managed Programmes</h5>
+                    <div class="d-flex flex-wrap gap-2">
+                        @foreach (var programme in Model.ManagedProgrammes)
+                        {
+                            <span class="badge bg-primary fs-6 p-2">@programme</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pending Claims -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card card-custom">
+                <div class="card-header bg-transparent d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Pending Claims for Review</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.PendingClaims.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Claim #</th>
+                                        <th>Lecturer</th>
+                                        <th>Month</th>
+                                        <th>Submitted</th>
+                                        <th>Amount</th>
+                                        <th>Items</th>
+                                        <th>Docs</th>
+                                        <th>Priority</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var claim in Model.PendingClaims)
+                                    {
+                                        <tr>
+                                            <td><strong>@claim.ClaimNumber</strong></td>
+                                            <td>
+                                                @claim.LecturerName<br />
+                                                <small class="text-muted">@claim.LecturerEmail</small>
+                                            </td>
+                                            <td>@claim.ClaimMonth.ToString("MMM yyyy")</td>
+                                            <td>
+                                                @claim.SubmissionDate.ToString("yyyy-MM-dd")<br />
+                                                <small class="text-muted">(@claim.DaysPending days ago)</small>
+                                            </td>
+                                            <td><strong>@claim.TotalAmount.ToString("C")</strong></td>
+                                            <td>@claim.ItemCount</td>
+                                            <td>
+                                                @claim.DocumentCount
+                                                @if (!claim.HasRequiredDocuments)
+                                                {
+                                                    <i class="fas fa-exclamation-triangle text-warning" title="Missing required documents"></i>
+                                                }
+                                            </td>
+                                            <td>
+                                                <span class="badge bg-@(claim.Priority == "High" ? "danger" : claim.Priority == "Medium" ? "warning" : "secondary")">
+                                                    @claim.Priority
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <a asp-action="ReviewClaim" asp-route-id="@claim.ClaimId" class="btn btn-sm btn-primary">
+                                                    <i class="fas fa-eye"></i> Review
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center py-5">
+                            <i class="fas fa-check-circle fa-4x text-success mb-3"></i>
+                            <h4>No Pending Claims</h4>
+                            <p class="text-muted">All claims have been reviewed!</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

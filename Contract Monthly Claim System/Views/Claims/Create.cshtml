@@ -1,0 +1,116 @@
+﻿@using Contract_Monthly_Claim_System.Models.View
+@model CreateClaimViewModel
+@{
+    ViewData["Title"] = "Submit New Claim";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h2 class="page-title">Submit New Claim</h2>
+    </div>
+</div>
+
+<!-- Progress Indicator -->
+<div class="progress-indicator mb-4">
+    <div class="progress-step completed">
+        <i class="fas fa-info-circle fa-2x mb-2"></i>
+        <div>Basic Info</div>
+    </div>
+    <div class="progress-step">
+        <i class="fas fa-list fa-2x mb-2"></i>
+        <div>Claim Items</div>
+    </div>
+    <div class="progress-step">
+        <i class="fas fa-file-upload fa-2x mb-2"></i>
+        <div>Documents</div>
+    </div>
+    <div class="progress-step">
+        <i class="fas fa-check fa-2x mb-2"></i>
+        <div>Review</div>
+    </div>
+</div>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data" id="claimForm">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- Basic Information -->
+    <div class="card card-custom mb-4">
+        <div class="card-header bg-transparent">
+            <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Claim Information</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label asp-for="ClaimMonth" class="form-label">Claim Month *</label>
+                        <input asp-for="ClaimMonth" type="month" class="form-control" required>
+                        <span asp-validation-for="ClaimMonth" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label asp-for="SubmissionDate" class="form-label">Submission Date *</label>
+                        <input asp-for="SubmissionDate" type="date" class="form-control" required>
+                        <span asp-validation-for="SubmissionDate" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Notes" class="form-label">Additional Notes</label>
+                <textarea asp-for="Notes" class="form-control" rows="3"
+                          placeholder="Any additional information about this claim..."></textarea>
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Claim Items -->
+    <div class="card card-custom mb-4">
+        <div class="card-header bg-transparent d-flex justify-content-between align-items-center">
+            <h5 class="mb-0"><i class="fas fa-list me-2"></i>Claim Items</h5>
+            <button type="button" class="btn btn-primary btn-sm" onclick="addClaimItem()">
+                <i class="fas fa-plus me-1"></i>Add Item
+            </button>
+        </div>
+        <div class="card-body">
+            <div id="claimItemsContainer">
+                <!-- Dynamic claim items will be added here -->
+            </div>
+            <div class="text-end mt-3">
+                <h4>Total Claim Amount: <span id="totalClaimAmount" class="text-success">R0.00</span></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Document Upload -->
+    <div class="card card-custom mb-4">
+        <div class="card-header bg-transparent">
+            <h5 class="mb-0"><i class="fas fa-file-upload me-2"></i>Supporting Documents</h5>
+        </div>
+        <div class="card-body">
+            <div class="upload-area" onclick="document.getElementById('documentsInput').click()">
+                <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
+                <h5>Click to Upload Documents</h5>
+                <p class="text-muted">Drag and drop files here or click to browse</p>
+                <small class="text-muted">Supported formats: PDF, DOC, DOCX, XLS, XLSX (Max 10MB each)</small>
+            </div>
+            <input asp-for="Documents" type="file" id="documentsInput" multiple class="d-none"
+                   accept=".pdf,.doc,.docx,.xls,.xlsx" onchange="handleFileUpload(this)">
+            <div id="uploadedFiles" class="mt-3"></div>
+        </div>
+    </div>
+
+    <!-- Form Actions -->
+    <div class="text-center">
+        <a asp-action="Index" class="btn btn-secondary me-3">Cancel</a>
+        <button type="button" class="btn btn-outline-primary me-3">Save as Draft</button>
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane me-2"></i>Submit Claim
+        </button>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/claim-form.js"></script>
+}
